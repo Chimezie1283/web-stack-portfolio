@@ -6,24 +6,22 @@ const Footer = () => {
     <footer className={classes.footer}>
       <div className={classes.wrapper}>
         <div className={classes.col}>
-          <h2>About the App</h2>
+          <h2>About Yarech Homes</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quisquam illum quam optio autem suscipit incidunt dicta dolorum eum dolores recusandae laboriosam expedita quo facilis, numquam et.
-            Delectus atque dolorum sapiente.
+            Yareach Enterprise Homes, is an application where property owners and verified agents advertise there properties so that prospective buyers and clients can make their choices and initiate transactions
           </p>
         </div>
         <div className={classes.col}>
           <h2>Contacts</h2>
-          <span>Phone: +123 456 789</span>
-          <span>YouTube: WebDevMania</span>
-          <span>GitHub: WebDevMania</span>
+          <span>Phone: +234 70 6835 7496</span>
+          <span>YouTube: < a href='https://www.youtube.com/channel/UCj_vZEeyibsb8eGTjdzY8JQ'>Agbo Chimezie</a></span>
+          <span>GitHub: <a href='https://github.com/Chimezie1283'>Chimezie1283</a></span>
         </div>
         <div className={classes.col}>
           <h2>Location</h2>
-          <span>Continent: Europe</span>
-          <span>Country: Bulgaria</span>
-          <span>Current Location: Bulgaria</span>
+          <span>Continent: Africa</span>
+          <span>Country: Nigeria</span>
+          <span>Current Location: Abuja</span>
         </div>
       </div>
     </footer>

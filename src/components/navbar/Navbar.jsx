@@ -20,9 +20,9 @@ const Navbar = () => {
         <header className={classes.container}>
             <nav className={classes.wrapper}>
                 <Link className={classes.left} href='/'>
-                    <h2>
-                        WebDevMania
-                    </h2>
+                    <h1>
+                        YAREACH
+                    </h1>
                 </Link>
                 <div className={classes.right}>
                     {session?.user?.email != null ? (

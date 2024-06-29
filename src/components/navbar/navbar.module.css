@@ -27,6 +27,11 @@
     color: var(--primary-orange);
 }
 
+.wrapper>.left>h1 {
+    font-size: 35px;
+    color: red;
+}
+
 
 .wrapper>.right {
     display: flex;
