@@ -20,16 +20,16 @@ const Hero = () => {
                 <div className={classes.left}>
                     <div className={classes.titles}>
                         <h2 className={classes.mainTitle}>
-                            Browse through our list of properties
+                            Explore through our list of properties
                         </h2>
                         <h5 className={classes.secondaryTitle}>
                             We offer a wide variety of houses and apartments
                         </h5>
                     </div>
                     <p className={classes.desc}>
-                        From villas in Italy to apartments in Norway, we've got you covered
+                        From Self Contain in Lagos to apartments in Abuja, we've got you covered
                         <br />
-                        Getting an estate has never been smoother
+                        Getting an estate has never been smoother...
                     </p>
                     <div className={classes.results}>
                         <div className={classes.result}>
@@ -41,7 +41,7 @@ const Hero = () => {
                             <BsFillPersonFill size={20} />
                         </div>
                         <div className={classes.result}>
-                            <span>Over 5 types of estates</span>
+                            <span>Over 5 different types of estates</span>
                             <TiTick size={20} />
                         </div>
                     </div>
@@ -55,7 +55,7 @@ const Hero = () => {
                 <div className={classes.right}>
                     <Image
                         src={estate1}
-                        width="500"
+                        width="600"
                         height="700"
                     />
                 </div>

@@ -59,10 +59,10 @@ const SearchModal = ({
                 {
                     step === 1 &&
                     <div className={classes.step_1}>
-                        <h2 className={classes.title}>Pick your desired price</h2>
+                        <h2 className={classes.title}>Please Select your desired price</h2>
                         <div className={classes.inputsContainer}>
                             <div className={classes.inputWrapper}>
-                                <label htmlFor='minPrice'>Min price</label>
+                                <label htmlFor='minPrice'>Minimum price</label>
                                 <input
                                     id="minPrice"
                                     type="number"
@@ -72,7 +72,7 @@ const SearchModal = ({
                                 />
                             </div>
                             <div className={classes.inputWrapper}>
-                                <label htmlFor='maxPrice'>Max Price</label>
+                                <label htmlFor='maxPrice'>Maximum Price</label>
                                 <input
                                     id="maxPrice"
                                     type="number"
@@ -87,7 +87,7 @@ const SearchModal = ({
                 {
                     step === 2 &&
                     <div className={classes.step_2}>
-                        <h2 className={classes.title}>Pick a type</h2>
+                        <h2 className={classes.title}>Pick the type</h2>
                         <div className={classes.selectContainer}>
                             <select
                                 className={classes.type}
@@ -106,7 +106,7 @@ const SearchModal = ({
                 {
                     step === 3 &&
                     <div className={classes.step_3}>
-                        <h2 className={classes.title}>Location of estate</h2>
+                        <h2 className={classes.title}>Location of Property</h2>
                         <div className={classes.selectContainer}>
                             <select
                                 className={classes.country}

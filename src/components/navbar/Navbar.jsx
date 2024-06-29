@@ -31,7 +31,7 @@ const Navbar = () => {
                                 {session?.user?.email}
                             </span>
                             <button onClick={() => signOut()} className={classes.logoutBtn}>
-                                Logout
+                                SignOut
                             </button>
                             <span className={classes.list} onClick={handleShowListModal}>List</span>
                             {showListModal && (
@@ -43,8 +43,8 @@ const Navbar = () => {
                     ) : (
                         <>
                             <span>Hello guest!</span>
-                            <button onClick={() => signIn()} className={classes.login}>Log in</button>
-                            <Link className={classes.register} href='/register'>Register</Link>
+                            <button onClick={() => signIn()} className={classes.login}>Sign In</button>
+                            <Link className={classes.register} href='/register'>Sign Out</Link>
                         </>
                     )}
                 </div>
